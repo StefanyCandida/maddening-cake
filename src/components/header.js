@@ -15,11 +15,11 @@ const GlobalStyle = createGlobalStyle`
 const Div = styled.div`
 display:flex;
 flex-direction:column;
-height:100vh;
-background-image:url("./img/Grupo-de-máscara-2.png");
-background-image:url(./Grupo-de-máscara-2.png);
+height:145vh;
+background-image:url(${foto});
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100%;
+border:solid;
 `
 
 const DivPrincipal = styled.div`
@@ -38,18 +38,22 @@ font-weight: 500;
 `
 
 const Nav = styled.nav`
- width: 50%;
+ width: 45%;
  display:flex;
  align-items:center;
+
 `
 const Ul = styled.ul`
 display:flex;
 justify-content:space-between;
+align-items:center;
 width: 100%;
-heigth:60%;
+height:60%;
+
+
 `
 const Li = styled.li`
-width: 40%;
+width: 30%;
 heigth:60%;
 font-size:2em;
 font-weight: 300;
