@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/maddening-cake/static/css/main.e6c13ad2.css",
-    "main.js": "/maddening-cake/static/js/main.de249e9f.js",
+    "main.js": "/maddening-cake/static/js/main.111a5e60.js",
     "static/js/787.0b53c9e2.chunk.js": "/maddening-cake/static/js/787.0b53c9e2.chunk.js",
     "static/media/Grupo-de-máscara-2.png": "/maddening-cake/static/media/Grupo-de-máscara-2.7417fae2c0eebf74b629.png",
     "static/media/colher.png": "/maddening-cake/static/media/colher.054c6b97dc4435872d98.png",
     "static/media/cake.png": "/maddening-cake/static/media/cake.6cf44c8d7f5868bef2f1.png",
     "static/media/pizza.png": "/maddening-cake/static/media/pizza.ef2cf7030adf6676511e.png",
     "static/media/coffe.png": "/maddening-cake/static/media/coffe.0430309e784773200e97.png",
+    "static/media/Insta.svg": "/maddening-cake/static/media/Insta.c555da1c5613466297de43992af06df4.svg",
+    "static/media/Twitte.svg": "/maddening-cake/static/media/Twitte.90a2ba8d66f6910effc67431d8eefb54.svg",
+    "static/media/Pinteres.svg": "/maddening-cake/static/media/Pinteres.3ca91020e565fc1f943a015c382ec4bc.svg",
     "index.html": "/maddening-cake/index.html",
+    "static/media/Face.svg": "/maddening-cake/static/media/Face.f7edc4fd294f34d7d29a83724e624fcb.svg",
     "main.e6c13ad2.css.map": "/maddening-cake/static/css/main.e6c13ad2.css.map",
-    "main.de249e9f.js.map": "/maddening-cake/static/js/main.de249e9f.js.map",
+    "main.111a5e60.js.map": "/maddening-cake/static/js/main.111a5e60.js.map",
     "787.0b53c9e2.chunk.js.map": "/maddening-cake/static/js/787.0b53c9e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.de249e9f.js"
+    "static/js/main.111a5e60.js"
   ]
 }
