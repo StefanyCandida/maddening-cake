@@ -1,6 +1,7 @@
 import React from "react";
 import Header from './components/header'
 import Main from './components/main'
+import Footer from './components/footer'
 import { Component } from 'react';
 import { createGlobalStyle } from "styled-components";
 
@@ -21,6 +22,7 @@ render(){
         <GlobalStyle/>
         <Header/>
         <Main />
+        <Footer />
     </div>
   )
 }

@@ -51,7 +51,7 @@ const Li = styled.li`
         &:hover{
         border:solid;
         cursor:point;
-        box-shadow: #61dafb;
+        box-shadow: inset 13vw 0#EEE8AA;
 }
 `
 

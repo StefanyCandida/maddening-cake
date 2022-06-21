@@ -45,10 +45,25 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 flex-direction:column;
+overflow: hidden;
 `
 const Figure = styled.figure`
 height: 60%;
 width:100%;
+&:hover{
+    transform:scale(1.05);
+    cursor:pointer;
+    transition:1s;    
+           width:110%;
+          height:50vh;
+    
+}
+
+`
+const Img = styled.img`
+height: 100%;
+width:100%;
+
 `
 const Text = styled.div`
 height: 40%;
@@ -64,13 +79,6 @@ display:flex;
 align-items:center;
 font-size: 30px;
 `
-
-const Img = styled.img`
-height: 100%;
-width:100%;
-
-`
-
 const About = styled.div`
 height: 85vh;
 display:flex;
@@ -102,7 +110,7 @@ flex-direction:column;
 const Pbox = styled.p`
 width:70%;
 height:50%;
-
+font-size:20px;
 
 `
 
