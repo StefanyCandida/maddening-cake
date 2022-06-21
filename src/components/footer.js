@@ -38,10 +38,16 @@ font-weight: 100;
 
 
 const DivI = styled.form`
+height:10%;
+width:40%;
+
 `
 
 const Input = styled.input`
-font-size:50px;
+height:100%;
+width:100%;
+font-size:26px;
+border:none;
 `
 const DivB = styled.div`
 height:30%;
@@ -54,6 +60,13 @@ const Button = styled.button`
 font-size:40px;
 height:40%;
 width:100%;
+background:none;
+border:solid 7px;
+&:hover{
+    border:solid 5px;
+    cursor: pointer;
+    box-shadow: inset 15vw 0#EEE8AA;
+}
 `
 
 const Redes = styled.div`
@@ -68,9 +81,14 @@ width:20%;
 display:flex;
 justify-content:space-evenly;
 align-items:center;
+
 `
 const Img = styled.img`
 width:15%;
+&:hover{
+    transform:scale(1.2);   
+    cursor: pointer;
+   }
 
 `
 
@@ -97,7 +115,7 @@ const Li = styled.li`
     text-align:center;
         &:hover{
         border:solid;
-        cursor:point;
+        cursor: pointer;
         box-shadow: inset 13vw 0#EEE8AA;
 }
 `
@@ -127,7 +145,7 @@ render(){
             </DivT>
             
             <DivI> 
-                <Input tipe="email" placeholder='Your Email'></Input>
+                <Input tipe="email" placeholder='Your Email'/>
             </DivI>
            
             <DivB>
@@ -137,10 +155,10 @@ render(){
         </Sub>
         <Redes>
             <Social>
-                <Img src={insta}></Img>
-                <Img src={twitter}></Img>
-                <Img src={facebook}></Img>
-                <Img src={pinterest}></Img>
+                <Img src={insta}/>
+                <Img src={twitter}/>
+                <Img src={facebook}/>
+                <Img src={pinterest}/>
             </Social>
             <Nav>
             <Ul>

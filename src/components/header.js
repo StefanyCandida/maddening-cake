@@ -44,13 +44,12 @@ height:60%;
 `
 const Li = styled.li`
     width: 30%;
-    heigth:60%;
     font-size:2em;
     font-weight: 300;
     text-align:center;
         &:hover{
         border:solid;
-        cursor:point;
+        cursor: pointer;
         box-shadow: inset 13vw 0#EEE8AA;
 }
 `

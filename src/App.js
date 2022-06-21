@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
 }
 `
-
 export default class Principal extends Component{
 
 render(){

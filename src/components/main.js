@@ -127,7 +127,7 @@ render(){
             <Gimagens>
                 <Fatia>
                     <Figure>
-                        <Img src={cake}></Img>
+                        <Img src={cake}/>
                     </Figure>
                     <Text>
                         <Tracinho></Tracinho> 
@@ -136,7 +136,7 @@ render(){
                 </Fatia>
                 <Fatia>
                      <Figure>
-                        <Img src={pizza}></Img>
+                        <Img src={pizza}/>
                      </Figure>
                      <Text>
                         <Tracinho></Tracinho>
@@ -146,7 +146,7 @@ render(){
                 </Fatia>
                 <Fatia>
                     <Figure>
-                        <Img src={coffee}></Img>
+                        <Img src={coffee}/>
                     </Figure>
                     <Text>
                         <Tracinho></Tracinho>
@@ -156,7 +156,7 @@ render(){
             </Gimagens>
             <About>
                 <Afigure>
-                        <Img src={colher}></Img>
+                        <Img src={colher}/>
                 </Afigure>
             
                 <Box>
