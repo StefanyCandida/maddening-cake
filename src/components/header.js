@@ -1,16 +1,7 @@
 import React, { Component } from "react";
 import foto from './img/Grupo-de-máscara-2.png'
 import styled from "styled-components";
-import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    list-style: none;
-}
-`
 
 const Div = styled.div`
 display:flex;
@@ -19,7 +10,6 @@ height:145vh;
 background-image:url(${foto});
 background-repeat: no-repeat;
 background-size: 100%;
-border:solid;
 `
 
 const DivPrincipal = styled.div`
@@ -53,14 +43,15 @@ height:60%;
 
 `
 const Li = styled.li`
-width: 30%;
-heigth:60%;
-font-size:2em;
-font-weight: 300;
-text-align:center;
-&:hover{
-    border:solid;
-    cursor:point;
+    width: 30%;
+    heigth:60%;
+    font-size:2em;
+    font-weight: 300;
+    text-align:center;
+        &:hover{
+        border:solid;
+        cursor:point;
+        box-shadow: #61dafb;
 }
 `
 
@@ -82,7 +73,7 @@ render(){
     return(
 
         <Div>
-            <GlobalStyle/>
+        
         <DivPrincipal>
         <Hdois>RC</Hdois>
         <Nav>
