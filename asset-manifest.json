@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maddening-cake/static/css/main.e6c13ad2.css",
-    "main.js": "/maddening-cake/static/js/main.111a5e60.js",
+    "main.js": "/maddening-cake/static/js/main.8ec785a5.js",
     "static/js/787.0b53c9e2.chunk.js": "/maddening-cake/static/js/787.0b53c9e2.chunk.js",
     "static/media/Grupo-de-máscara-2.png": "/maddening-cake/static/media/Grupo-de-máscara-2.7417fae2c0eebf74b629.png",
     "static/media/colher.png": "/maddening-cake/static/media/colher.054c6b97dc4435872d98.png",
@@ -14,11 +14,11 @@
     "index.html": "/maddening-cake/index.html",
     "static/media/Face.svg": "/maddening-cake/static/media/Face.f7edc4fd294f34d7d29a83724e624fcb.svg",
     "main.e6c13ad2.css.map": "/maddening-cake/static/css/main.e6c13ad2.css.map",
-    "main.111a5e60.js.map": "/maddening-cake/static/js/main.111a5e60.js.map",
+    "main.8ec785a5.js.map": "/maddening-cake/static/js/main.8ec785a5.js.map",
     "787.0b53c9e2.chunk.js.map": "/maddening-cake/static/js/787.0b53c9e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.111a5e60.js"
+    "static/js/main.8ec785a5.js"
   ]
 }
