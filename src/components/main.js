@@ -156,7 +156,7 @@ render(){
             </Gimagens>
             <About>
                 <Afigure>
-                        <Img src={colher}/>
+                        <Img src={colher} alt="Dois copos com creme de algo "/>
                 </Afigure>
             
                 <Box>
